@@ -16,7 +16,6 @@ import Gantt from './pages/Gantt'
 import Settings from './pages/Settings'
 import EditProject from './pages/EditProject'
 import Documents from './pages/Documents'
-import NotificationsPage from './pages/NotificationsPage'
 import ClientPortal from './pages/ClientPortal'
 
 function Layout({ children }) {
@@ -73,7 +72,6 @@ function AppRoutes() {
       <Route path="/team/:projectId" element={<ProtectedRoute><Layout><Team /></Layout></ProtectedRoute>} />
       <Route path="/gantt/:projectId" element={<ProtectedRoute><Layout><Gantt /></Layout></ProtectedRoute>} />
       <Route path="/documents/:projectId" element={<ProtectedRoute><Layout><Documents /></Layout></ProtectedRoute>} />
-      <Route path="/notifications" element={<ProtectedRoute><Layout><NotificationsPage /></Layout></ProtectedRoute>} />
       <Route path="/settings" element={<ProtectedRoute><Layout><Settings /></Layout></ProtectedRoute>} />
     </Routes>
   )
