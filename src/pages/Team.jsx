@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { supabase } from '../supabase/client'
 import { useTheme } from '../context/ThemeContext'
 import { exportPayrollPDF } from '../utils/exportPDF'
-import { FiDollarSign, FiUsers, FiCheckCircle, FiClock, FiTrendingUp, FiTrendingDown } from 'react-icons/fi'
+import { FiDollarSign, FiUsers, FiClock, FiTrendingUp, FiTrendingDown } from 'react-icons/fi'
 
 export default function Team() {
   const { projectId } = useParams()

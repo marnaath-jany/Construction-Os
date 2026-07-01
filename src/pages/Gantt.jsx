@@ -119,7 +119,7 @@ export default function Gantt() {
     let current = new Date(start)
     let dayCount = 0
     while (dayCount < totalDays) {
-      const weekStart = current.toISOString().split('T')[0]
+      // const weekStart = current.toISOString().split('T')[0]
       const label = current.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })
       const daysInWeek = Math.min(7, totalDays - dayCount)
       headers.push({ label, days: daysInWeek })

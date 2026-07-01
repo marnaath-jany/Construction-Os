@@ -7,7 +7,7 @@ import {
   FiHome, FiDollarSign, FiCalendar, FiFileText,
   FiUsers, FiFolder, FiPlus, FiLogOut, FiSun,
   FiMoon, FiChevronLeft, FiChevronRight, FiSettings,
-  FiCreditCard, FiX, FiBell
+  FiX
 } from 'react-icons/fi'
 
 export default function Sidebar({ onClose }) {

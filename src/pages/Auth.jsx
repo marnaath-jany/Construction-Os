@@ -3,7 +3,7 @@ import { supabase } from '../supabase/client'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { useTheme } from '../context/ThemeContext'
-import { FiSun, FiMoon, FiMail, FiLock, FiUser, FiEye, FiEyeOff } from 'react-icons/fi'
+import { FiSun, FiMoon, FiMail, FiLock, FiEye, FiEyeOff } from 'react-icons/fi'
 
 export default function Auth() {
   const { signIn, signUp } = useAuth()
